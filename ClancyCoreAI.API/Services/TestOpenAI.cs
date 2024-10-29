@@ -6,6 +6,6 @@ public class TestOpenAI
 {
     public void Test()
     {
-        var message = new ChatRequestMessage(ChatRole.System, "test");
+        var message = new Azure.AI.OpenAI.ChatRequestMessage(Azure.AI.OpenAI.ChatRole.System, "test");
     }
 } 
