@@ -1,0 +1,6 @@
+@ClancyCoreAI.API_HostAddress = http://localhost:5127
+
+GET {{ClancyCoreAI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
